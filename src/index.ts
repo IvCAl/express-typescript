@@ -1,4 +1,5 @@
 import express from 'express'
+import diarioRouter from './routes/diario';
 
 const app=express()
 
@@ -12,6 +13,9 @@ app.get('/ping',(_req,res) => {
     res.send('pong')
 })
 
+app.use('/api/diario',diarioRouter)
+
+//Oyente para 
 app.listen(PORT, ()=>{
     console.log(`El servidor esta en el puerto ${PORT}`)
 })

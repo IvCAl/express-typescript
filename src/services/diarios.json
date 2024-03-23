@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "fecha": "1-1-2024",
+        "clima": "Nublado",
+        "visibilidad": "Buena",
+        "descripcion": "esto es un 1 comentario"
+    },
+    {
+        "id": 2,
+        "fecha": "1-2-2024",
+        "clima": "Lluvioso",
+        "visibilidad": "Buena",
+        "descripcion": "esto es un 2 comentario"
+    },
+    {
+        "id": 3,
+        "fecha": "1-3-2024",
+        "clima": "Soleado",
+        "visibilidad": "Buena",
+        "descripcion": "esto es un 3 comentario"
+    }
+]
