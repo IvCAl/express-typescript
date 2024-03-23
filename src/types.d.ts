@@ -14,3 +14,6 @@ export interface diarioEntry {
 interface ExtraDiarioEntry extends diarioEntry {
   humor: humor
 }
+
+// export type ocultarDescripcionDiarioEntry = pick<diarioEntry, 'id' | 'fecha' | 'clima' | 'visibilidad'>
+export type ocultarDescripcionDiarioEntry = omit<diarioEntry, 'descripcion'>
